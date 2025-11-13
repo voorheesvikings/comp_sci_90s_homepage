@@ -1,0 +1,12 @@
+/* Import poppins, old standard tt, and special elite */
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@0;1&family=Poppins:wght@400;700&family=Special+Elite&display=swap');
+
+#header {
+    font-family: "Special Elite", serif;
+    text-align: center;
+    font-size: 17px;
+    box-shadow: 5px 5px 20px grey;
+    padding:10px;
+    width:60vw;
+    margin:auto;
+}
