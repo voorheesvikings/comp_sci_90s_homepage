@@ -22,6 +22,13 @@ html {
     transition: transform 0.2s;
 }
 
+#tennis_header {
+    font-family: 'Special Elite', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:rgb(59, 0, 0);
+}
+
 #tennis:hover {
     transform: scale(2);
     transition: transform 0.2s;
@@ -118,12 +125,16 @@ body {
     position:relative;
 }
 
-#text {
+#travel_header {
     font-family: 'Special Elite', sans-serif;
-    font-size: 15px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:rgb(0, 0, 59);
 }
 
 #text {
+    font-family: 'Special Elite', sans-serif;
+    font-size: 15px;
     margin:auto;
     line-height: 1.5;
     margin-left:35vw;
@@ -207,4 +218,64 @@ body {
     align-items: center;
     padding-left:25vw;
     font-family: "Special Elite", sans-serif;
+}
+
+#challenge_img1 {
+    position:absolute;
+    border-radius: 8px;
+    height:190px;
+    transition: transform 0.2s;
+    margin-left: -300px;
+    margin-top: 190px;
+}
+
+#challenge_img1:hover {
+    transform: scale(2);
+    transition: transform 0.2s;
+}
+
+#challenge_img2 {
+    position:absolute;
+    border-radius: 8px;
+    height:190px;
+    transition: transform 0.2s;
+    margin-left: 50vw;
+    margin-top: 100px;
+}
+
+#challenge_img2:hover {
+    transform: scale(2);
+    transition: transform 0.2s;
+}   
+
+#challenge_img3 {
+    position:absolute;
+    border-radius: 8px;
+    height:190px;
+    transition: transform 0.2s;
+    margin-left: 10vw;
+    margin-top: 350px;
+}
+
+#challenge_img3:hover {
+    transform: scale(2);
+    transition: transform 0.2s;
+}
+
+#challenge_header {
+    font-family: 'Special Elite', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:rgb(80, 96, 0);
+}
+
+#table {
+    margin-top: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+tr, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
 }
